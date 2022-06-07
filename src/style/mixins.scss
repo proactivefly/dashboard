@@ -1,0 +1,18 @@
+//#{} 拼接 的意思
+@mixin go($block) {
+  $B: 'go' + '-' + $block; // $B='go-login-box'
+  .#{$B} {
+    // .go-login-box
+    @content;
+  }
+}
+@mixin deep() {
+  :deep {
+    @content;
+  }
+}
+
+//获取背景渐变颜色
+@mixin background-image($target) {
+  background-image: $target;
+}

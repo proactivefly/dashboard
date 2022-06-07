@@ -1,0 +1,93 @@
+#project {
+  color: #d3d6dd;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: left top;
+  .bg {
+    width: 100%;
+    height: 100%;
+    padding: 16px 16px 0 16px;
+    background-image: url('../../assets/earth-bg.png');
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.host-body {
+  .top {
+    padding: 0px;
+    height: 90px;
+    background-image: url('../../assets/project/top.png');
+    background-size: cover;
+    background-position: center 12px;
+    .title {
+      height: 32px;
+      text-align: center;
+      text-shadow: 0 0 25px #13aaec;
+      line-height: 90px;
+      font-size: 33px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+  .content {
+    padding: 0px 46px;
+    min-height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .left {
+      width: 500px;
+      .first {
+        height: 260px;
+        margin-top: -22px;
+      }
+      .second {
+        height: 328px;
+      }
+      .three {
+        height: 315px;
+        margin-top: 20px;
+      }
+    }
+    .right {
+      width: 500px;
+      .first {
+        height: 290px;
+        margin-top: -22px;
+      }
+      .second {
+        height: 283px;
+        margin-top: 15px;
+      }
+      .three {
+        height: 321px;
+        margin-top: 15px;
+      }
+    }
+    .center {
+      flex: 1;
+      margin: 0px 37px;
+      .first {
+        height: 310px;
+      }
+      .second {
+        height: 270px;
+      }
+      .three {
+        height: 300px;
+        margin-top: 20px;
+      }
+    }
+  }
+  .bottom {
+    height: 60px;
+    background: url('../../assets/project/bottom.png');
+    background-size: cover;
+    background-position: center 0px;
+  }
+}

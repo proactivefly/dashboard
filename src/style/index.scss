@@ -1,0 +1,13 @@
+@import './animation.scss';
+@import './mixins.scss';
+@font-face {
+  font-family: 'PIXymbolsDigitClocksW90-Bd';
+  src: url('//db.onlinewebfonts.com/t/35043a149682a862b352fa51c0e25869.eot');
+  src: url('//db.onlinewebfonts.com/t/35043a149682a862b352fa51c0e25869.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/35043a149682a862b352fa51c0e25869.woff2') format('woff2'),
+    url('//db.onlinewebfonts.com/t/35043a149682a862b352fa51c0e25869.woff') format('woff'),
+    url('//db.onlinewebfonts.com/t/35043a149682a862b352fa51c0e25869.ttf') format('truetype'),
+    url('//db.onlinewebfonts.com/t/35043a149682a862b352fa51c0e25869.svg#PIXymbolsDigitClocksW90-Bd')
+      format('svg');
+}
